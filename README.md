@@ -36,3 +36,16 @@ ES5가 대중적으로 사용되어지고 있다가 ES6의 기능이 많이 바�
 2. 유틸의 종류는 ?
 3. 라이브러리의 객체화 방법은 어떻게 ?
 4. 라이브러리의 깔끔한 주석처리 방법 ?
+
+# 컨벤션
+ 1. if 문 boolean 값 묵시적비교 혹은 명시적 비교 택1
+ 	if(! isTrue)   or  if(isTrue == true)
+ 2. 요다표기법 택1
+	if (0 == size) {...}
+	if (size == 0) {...}
+ 3. 변수 명명
+ 	var soWhat = $(v)[0]; 	
+	if( soWhat !== undefined )  명시적 표기 추천	
+	if( $(v)[0] !== undefined )
+ 
+ 
